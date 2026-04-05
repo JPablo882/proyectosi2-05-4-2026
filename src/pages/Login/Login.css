@@ -1,0 +1,86 @@
+/* CONTENEDOR */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #1e3a8a,
+    #2563eb,
+    #0f172a
+  );
+}
+
+/* CARD */
+.login-card {
+  background: #e5e7eb;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* LOGO */
+.logo-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo-img img {
+  width: 60px;
+  border-radius: 10px;
+}
+
+/* TITULO */
+.login-card h2 {
+  margin-bottom: 5px;
+  color: #0f172a;
+}
+
+/* SUBTITULO */
+.subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+/* LABEL */
+label {
+  font-size: 14px;
+  color: #0f172a;
+  text-align: left;
+}
+
+/* INPUT */
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #d1d5db;
+  outline: none;
+}
+
+/* BOTÓN */
+button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}

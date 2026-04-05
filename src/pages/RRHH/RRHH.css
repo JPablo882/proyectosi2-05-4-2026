@@ -1,0 +1,249 @@
+.rrhh-container {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* 📊 CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #f5f6f8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.verde {
+  color: green;
+}
+
+/* 🔍 BARRA */
+.barra {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+/* 🔍 BUSCADOR GRANDE */
+.buscador {
+  flex: 3; /* 🔥 más grande */
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* 📋 SELECT */
+.select-rol {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* 🔘 BOTÓN PEQUEÑO */
+.btn-azul {
+  flex: 0.5; /* 🔥 más chico */
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.btn-azul:hover {
+  background: #1e40af;
+}
+
+/* 📋 LISTA */
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.empleado {
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.emp-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.azul {
+  background: #3b82f6;
+  color: white;
+}
+
+.alto {
+  background: #ef4444;
+  color: white;
+}
+
+.medio {
+  background: #f59e0b;
+  color: white;
+}
+
+/* INFO */
+.emp-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* FOOTER */
+.emp-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: white;
+}
+
+/* 🔲 MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* 📦 CAJA */
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  width: 650px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  animation: fadeIn 0.3s ease;
+}
+
+/* 🎬 ANIMACIÓN */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 🏷️ TÍTULO */
+.titulo-modal {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 🧱 GRID */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+/* 📌 CAMPO */
+.campo {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #444;
+}
+
+/* FULL WIDTH */
+.full {
+  grid-column: span 2;
+}
+
+/* INPUTS */
+.modal-content input,
+.modal-content select {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+/* EFECTO */
+.modal-content input:focus,
+.modal-content select:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+/* BOTONES */
+.acciones {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn-guardar {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-guardar:hover {
+  background: #1e40af;
+}
+
+.btn-cancelar {
+  background: #e5e7eb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}

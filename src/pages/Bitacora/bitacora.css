@@ -1,0 +1,51 @@
+.bitacora-container {
+  max-width: 1100px;
+  margin: 0 auto;   /* 🔥 centra todo */
+}
+
+/* TITULO */
+.titulo {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* TABLA */
+.tabla {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.tabla table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.tabla th {
+  background: #1e293b;
+  color: white;
+  text-align: left;
+}
+
+.tabla tr:hover {
+  background: #f1f5f9;
+}
+
+/* MENSAJE VACÍO */
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
